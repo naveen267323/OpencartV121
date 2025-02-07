@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-07T00:34:36 EST" name="Suite" finished-at="2025-02-07T00:36:39 EST" duration-ms="123005">
+    <groups>
+    </groups>
+    <test started-at="2025-02-07T00:34:36 EST" name="Test" finished-at="2025-02-07T00:36:39 EST" duration-ms="123005">
+      <class name="testCases.TC003_DDTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:34:59 EST" name="startbrowser" finished-at="2025-02-07T00:35:03 EST" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:03 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:35:09 EST" duration-ms="5573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt2027@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounaveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:09 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:35:43 EST" duration-ms="33847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt202@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounavee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:43 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:35:49 EST" duration-ms="5880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt2027@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounaveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:49 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:35:54 EST" duration-ms="5084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt2027@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounaveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:54 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:35:59 EST" duration-ms="5201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt2027@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounaveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:35:59 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:36:33 EST" duration-ms="33807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt202@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounavee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:36:33 EST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-02-07T00:36:39 EST" duration-ms="5792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendutt2027@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[howareyounaveen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_DDTest@598bd2ba]" started-at="2025-02-07T00:36:39 EST" name="teardown" finished-at="2025-02-07T00:36:39 EST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_DDTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:testCases.TC001_AccountRegistrationTest@3fed2870]" started-at="2025-02-07T00:34:36 EST" name="startbrowser" finished-at="2025-02-07T00:34:41 EST" duration-ms="5043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="Home_AccountRegistration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@3fed2870]" started-at="2025-02-07T00:34:41 EST" name="Home_AccountRegistration" finished-at="2025-02-07T00:34:44 EST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_AccountRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@3fed2870]" started-at="2025-02-07T00:34:44 EST" name="teardown" finished-at="2025-02-07T00:34:44 EST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC002_LoginPageTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:testCases.TC002_LoginPageTest@4c1f22f3]" started-at="2025-02-07T00:34:44 EST" name="startbrowser" finished-at="2025-02-07T00:34:49 EST" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginPageTest@4c1f22f3]" started-at="2025-02-07T00:34:49 EST" name="verify_login" finished-at="2025-02-07T00:34:58 EST" duration-ms="9650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginPageTest@4c1f22f3]" started-at="2025-02-07T00:34:58 EST" name="teardown" finished-at="2025-02-07T00:34:59 EST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
