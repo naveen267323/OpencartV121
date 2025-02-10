@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 7, 2025 12:34:36 AM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 10, 2025 12:10:31 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,8 +66,8 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -75,25 +75,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="skip" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Home_AccountRegistration</p>
             <p class="text-sm">
-              <span>12:34:41 AM</span> / <span>00:00:02:849</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:10:52 PM</span> / <span>00:00:00:010</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Home_AccountRegistration</h5>
-<span class='badge badge-success'>02.07.2025 12:34:41 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:34:44 AM</span>
-<span class='badge badge-default'>00:00:02:849</span>
+<h5 class="test-status text-skip">Home_AccountRegistration</h5>
+<span class='badge badge-success'>02.10.2025 12:10:52 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:10:52 PM</span>
+<span class='badge badge-default'>00:00:00:010</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,17 +104,17 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:34:41 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>12:10:52 PM</td>
         <td>
-          Login started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:34:44 AM</td>
-        <td>
-          Test Passed
+          Test Skipped: org.openqa.selenium.WebDriverException: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [811f0eacd4025b44fb87c0f16bce93ff, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 811f0eacd4025b44fb87c0f16bce93ff
         </td>
       </tr>
   </tbody>
@@ -122,25 +122,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_login</p>
             <p class="text-sm">
-              <span>12:34:49 AM</span> / <span>00:00:09:650</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:10:55 PM</span> / <span>00:00:00:030</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_login</h5>
-<span class='badge badge-success'>02.07.2025 12:34:49 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:34:58 AM</span>
-<span class='badge badge-default'>00:00:09:650</span>
+<h5 class="test-status text-fail">verify_login</h5>
+<span class='badge badge-success'>02.10.2025 12:10:55 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:10:55 PM</span>
+<span class='badge badge-default'>00:00:00:030</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -151,10 +151,18 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:34:58 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:10:55 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b63486dc25203f95b0cd2ece5f7e1422, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61843}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61843/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b63486dc25203f95b0cd2ece5f7e1422
         </td>
       </tr>
   </tbody>
@@ -162,25 +170,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:03 AM</span> / <span>00:00:05:572</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:019</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:03 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:35:09 AM</span>
-<span class='badge badge-default'>00:00:05:572</span>
+<h5 class="test-status text-fail">verify_loginDDT</h5>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:019</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -192,16 +200,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:03 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt2027@gmail.com
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:35:09 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:11:00 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -216,7 +232,7 @@
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:09 AM</span> / <span>00:00:33:848</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:011</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -225,9 +241,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:09 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:35:43 AM</span>
-<span class='badge badge-default'>00:00:33:848</span>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:011</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -239,23 +255,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:09 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt202@gmail.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:35:43 AM</td>
+        <td>12:11:00 PM</td>
         <td>
-          Login failed for: naveendutt202@gmail.com. Error: Warning: No match for E-Mail Address and/or Password.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:35:43 AM</td>
-        <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -263,25 +280,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="fail" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:43 AM</span> / <span>00:00:05:879</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:013</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:43 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:35:49 AM</span>
-<span class='badge badge-default'>00:00:05:879</span>
+<h5 class="test-status text-fail">verify_loginDDT</h5>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:013</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -293,16 +310,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:43 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt2027@gmail.com
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:35:49 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:11:00 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -310,25 +335,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="6"
+        <li class="test-item"  status="fail" test-id="6"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:49 AM</span> / <span>00:00:05:084</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:009</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:49 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:35:54 AM</span>
-<span class='badge badge-default'>00:00:05:084</span>
+<h5 class="test-status text-fail">verify_loginDDT</h5>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:009</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -340,16 +365,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:49 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt2027@gmail.com
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:35:54 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:11:00 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -357,25 +390,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="7"
+        <li class="test-item"  status="fail" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:54 AM</span> / <span>00:00:05:200</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:008</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:54 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:35:59 AM</span>
-<span class='badge badge-default'>00:00:05:200</span>
+<h5 class="test-status text-fail">verify_loginDDT</h5>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:008</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -387,16 +420,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:54 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt2027@gmail.com
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:35:59 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:11:00 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -411,7 +452,7 @@
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:35:59 AM</span> / <span>00:00:33:806</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:015</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -420,9 +461,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:35:59 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:36:33 AM</span>
-<span class='badge badge-default'>00:00:33:806</span>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:015</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -434,23 +475,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:35:59 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt202@gmail.com
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:36:33 AM</td>
+        <td>12:11:00 PM</td>
         <td>
-          Login failed for: naveendutt202@gmail.com. Error: Warning: No match for E-Mail Address and/or Password.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:36:33 AM</td>
-        <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -458,25 +500,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="9"
+        <li class="test-item"  status="fail" test-id="9"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_loginDDT</p>
             <p class="text-sm">
-              <span>12:36:33 AM</span> / <span>00:00:05:791</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:11:00 PM</span> / <span>00:00:00:010</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_loginDDT</h5>
-<span class='badge badge-success'>02.07.2025 12:36:33 AM</span>
-<span class='badge badge-danger'>02.07.2025 12:36:39 AM</span>
-<span class='badge badge-default'>00:00:05:791</span>
+<h5 class="test-status text-fail">verify_loginDDT</h5>
+<span class='badge badge-success'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-danger'>02.10.2025 12:11:00 PM</span>
+<span class='badge badge-default'>00:00:00:010</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -488,16 +530,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:36:33 AM</td>
+        <td>12:11:00 PM</td>
         <td>
           Login started for email: naveendutt2027@gmail.com
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:36:39 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:11:00 PM</td>
         <td>
-          Test Passed
+          Test Failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab7c8f1682af46d1dd90af13f5342472, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.53, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\NDUTT2~1.COM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61860/devtoo..., se:cdpVersion: 133.0.6943.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab7c8f1682af46d1dd90af13f5342472
         </td>
       </tr>
   </tbody>
@@ -519,25 +569,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 7, 2025 12:34:36 AM</h3>
+<h3>Feb 10, 2025 12:10:31 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 7, 2025 12:36:39 AM</h3>
+<h3>Feb 10, 2025 12:11:00 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>7</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>2</h3>
+<h3>8</h3>
 </div></div>
 </div>
 </div>
@@ -553,13 +603,13 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='77%'>
-<b>7</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='22%'><b>2</b> tests failed,
-<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+<small data-tooltip='88%'><b>8</b> tests failed,
+<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -576,9 +626,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='47%'><b>9</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='10%'><b>2</b> events failed,
+<small data-tooltip='50%'><b>8</b> events failed,
 <b data-tooltip='%'>8</b> others
 </small>
 </div>
@@ -595,7 +645,7 @@
 </div></div>
 <script>
 var timeline = {
-"Home_AccountRegistration":2.849,"verify_login":9.65,"verify_loginDDT":5.572,"verify_loginDDT":33.848,"verify_loginDDT":5.879,"verify_loginDDT":5.084,"verify_loginDDT":5.2,"verify_loginDDT":33.806,"verify_loginDDT":5.791
+"Home_AccountRegistration":0.01,"verify_login":0.03,"verify_loginDDT":0.019,"verify_loginDDT":0.011,"verify_loginDDT":0.013,"verify_loginDDT":0.009,"verify_loginDDT":0.008,"verify_loginDDT":0.015,"verify_loginDDT":0.01
 };
 </script>
 <div class="row">
@@ -622,10 +672,10 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 7,
-failParent: 2,
+passParent: 0,
+failParent: 8,
 warningParent: 0,
-skipParent: 0,
+skipParent: 1,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -639,11 +689,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 9,
-failEvents: 2,
+passEvents: 0,
+failEvents: 8,
 warningEvents: 0,
-skipEvents: 0,
-infoEvents: 8
+skipEvents: 1,
+infoEvents: 7
 };
 </script>        </div>
       </div>
